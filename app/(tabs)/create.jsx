@@ -129,7 +129,6 @@ const Create = () => {
                   className="w-5 h-5"
                 />
                 <Text className="text-sm text-gray-100 font-pmedium">
-                  {" "}
                   Choose a file
                 </Text>
               </View>

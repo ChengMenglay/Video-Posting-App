@@ -1,4 +1,4 @@
-import {  Text, View, Image } from "react-native";
+import { Text, View, Image } from "react-native";
 import { Tabs } from "expo-router";
 import React from "react";
 import { icons } from "../../constants";
@@ -43,6 +43,7 @@ const TabsLayout = () => {
           options={{
             title: "Home",
             headerShown: false,
+            
             tabBarIcon: ({ color, focused }) => {
               return (
                 <TabIcon
